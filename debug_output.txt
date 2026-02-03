@@ -1,0 +1,98 @@
+--- Debugging Retrieval ---
+Connecting to: ../data/chroma_db
+Total Documents: 112
+
+--- Content Sample (First 3 chunks) ---
+
+[Chunk 0]: References: 1. ORSERDU [prescribing information]. New York, NY: Stemline Therapeutics, Inc., a Menarini Group Company, 2023. 2. Bardia A, Cortés J, Bidard FC, et al. Elacestrant in ER+, HER2- metastat...
+Metadata: {'page_url': 'https://www.orserduhcp.com/', 'section_title': 'references'}
+
+[Chunk 1]: A, et al. Clinical and genomic factors associated with elacestrant outcomes in ESR1-mutant metastatic breast cancer. Clin Cancer Res. Published online November 7, 2025. doi:10.1158/1078-0432.CCR-25-30...
+Metadata: {'page_url': 'https://www.orserduhcp.com/', 'section_title': 'references'}
+
+[Chunk 2]: References: 1. ORSERDU [prescribing information]. New York, NY: Stemline Therapeutics, Inc., a Menarini Group Company, 2023. 2. Brett JO, Spring LM, Bardia A, Wander SA. ESR1 mutation as an emerging c...
+Metadata: {'section_title': 'references', 'page_url': 'https://www.orserduhcp.com/esr1m-testing/'}
+
+--- Query Test: 'what is the details about dosing of orserdu' ---
+
+Result 1 (Sim: 68.7%):
+Source: https://www.orserduhcp.com/access-and-support/ - ordering
+Content: ORSERDU ordering and distribution
+ORSERDU product information
+1
+Dose: 345 mg
+|
+NDC: 72187-0102-03
+Dose: 86 mg
+|
+NDC: 72187-0101-03
+Pills not actual size.
+ORSERDU is filled through specialty pharmacies and specialty distributors in the Stemline ARC
+®
+network. Ask your sales representative for a list of specialty pharmacies and distributors.
+Specialty pharmacies
+Biologics by McKesson
+Phone:
+1-800-850-4306
+Fax:
+1-800-823-4506
+Website:
+https://biologics.mckesson.com/
+providers/#how-to-order
+Onco360
+
+Result 2 (Sim: 68.7%):
+Source: https://www.orserduhcp.com/dosing/ - dose-modifications
+Content: If a dose is missed for more than 6 hours or vomiting occurs, skip the dose and take the next dose the following day at its regularly scheduled time
+1
+Avoid concomitant use of ORSERDU with strong or moderate CYP3A4 inducers and inhibitors
+1
+Avoid use of ORSERDU in patients with severe hepatic impairment (Child-Pugh C). Reduce the ORSERDU dosage to 258 mg once daily for patients with moderate hepatic impairment (Child-Pugh B).
+
+Result 3 (Sim: 67.6%):
+Source: https://www.orserduhcp.com/dosing/ - dose-modifications
+Content: resume ORSERDU at the next lower dose level.
+If a Grade 3 toxicity recurs, interrupt ORSERDU until recovery to Grade ≤1 or baseline. Then resume ORSERDU reduced by another dose level.
+Grade 4
+Interrupt ORSERDU until recovery to Grade ≤1 or baseline. Then resume ORSERDU reduced by 1 dose level.
+If a Grade 4 or intolerable AR recurs, permanently discontinue ORSERDU.
+Dose reduction
+1
+Dosage
+1
+Number and strength of tablets
+1
+First dose reduction
+258 mg once daily
+Three 86-mg tablets
+
+Result 4 (Sim: 64.8%):
+Source: https://www.orserduhcp.com/dosing/ - dose-modifications
+Content: mg once daily
+Three 86-mg tablets
+Second dose reduction
+172 mg once daily*
+Two 86-mg tablets
+ARs, adverse reactions; ER+, estrogen receptor-positive;
+ESR1
+, estrogen receptor 1; ET, endocrine therapy; HER2-, human epidermal growth factor receptor 2-negative; mBC, metastatic breast cancer.
+*
+If further dose reduction below 172 mg once daily is required, permanently discontinue ORSERDU.
+1
+Additional ORSERDU dosing and administration information
+
+Result 5 (Sim: 62.5%):
+Source: https://www.orserduhcp.com/dosing/ - dosing
+Content: In
+ESR1
+-mutated, ER+/HER2- mBC following progression on ET
+Convenient, once-daily oral ORSERDU
+1
+ORSERDU DOSAGE AND ADMINISTRATION
+1
+One 345-mg tablet, once daily
+Treat patients until disease progression or unacceptable toxicity
+With food to reduce nausea
+Tablets should be swallowed whole. Do not chew, crush, or split
+Around the same time each day
+If a dose is missed, continue regular dosing on the next day

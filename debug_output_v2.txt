@@ -1,0 +1,114 @@
+--- Starting Full Test Cycle (Reset, Scrape, Query) ---
+1. Resetting Collection at ../data/chroma_db...
+2. Scraping Website (this might take a moment)...
+3. Indexing 73 documents...
+4. Running Query Test...
+--- Debugging Retrieval ---
+Connecting to: ../data/chroma_db
+Total Documents: 73
+
+--- Content Sample (First 3 chunks) ---
+
+[Chunk 0]: References: 1. ORSERDU [prescribing information]. New York, NY: Stemline Therapeutics, Inc., a Menarini Group Company, 2023. 2. Bardia A, Cortés J, Bidard FC, et al. Elacestrant in ER+, HER2- metastat...
+Metadata: {'page_url': 'https://www.orserduhcp.com/', 'section_title': 'references'}
+
+[Chunk 1]: R1-mutant metastatic breast cancer. Clin Cancer Res. Published online November 14, 2025. doi:10.1158/1078-0432.CCR-25-3040...
+Metadata: {'section_title': 'references', 'page_url': 'https://www.orserduhcp.com/'}
+
+[Chunk 2]: References: 1. ORSERDU [prescribing information]. New York, NY: Stemline Therapeutics, Inc., a Menarini Group Company, 2023. 2. Brett JO, Spring LM, Bardia A, Wander SA. ESR1 mutation as an emerging c...
+Metadata: {'page_url': 'https://www.orserduhcp.com/esr1m-testing/', 'section_title': 'references'}
+
+--- Query Test: 'what is the details about dosing of orserdu' ---
+
+Result 1 (Sim: 66.5%):
+Source: https://www.orserduhcp.com/dosing/ - dose-modifications
+Content: If a Grade 4 or intolerable AR recurs, permanently discontinue ORSERDU.
+Dose reduction
+Dosage
+Number and strength of tablets
+First dose reduction
+258 mg once daily
+Three 86-mg tablets
+Second dose reduction
+172 mg once daily*
+Two 86-mg tablets
+ARs, adverse reactions; ER+, estrogen receptor-positive;
+ESR1
+, estrogen receptor 1; ET, endocrine therapy; HER2-, human epidermal growth factor receptor 2-negative; mBC, metastatic breast cancer.
+If further dose reduction below 172 mg once daily is required, permanently discontinue ORSERDU.
+Additional ORSERDU dosing and administration information
+If a dose is missed for more than 6 hours or vomiting occurs, skip the dose and take the next dose the following day at its regularly scheduled time
+
+Result 2 (Sim: 65.3%):
+Source: https://www.orserduhcp.com/access-and-support/ - ordering
+Content: ORSERDU ordering and distribution
+ORSERDU product information
+Dose: 345 mg
+NDC: 72187-0102-03
+Dose: 86 mg
+NDC: 72187-0101-03
+Pills not actual size.
+ORSERDU is filled through specialty pharmacies and specialty distributors in the Stemline ARC
+network. Ask your sales representative for a list of specialty pharmacies and distributors.
+Specialty pharmacies
+Biologics by McKesson
+Phone:
+1-800-850-4306
+Fax:
+1-800-823-4506
+Website:
+https://biologics.mckesson.com/
+providers/#how-to-order
+Onco360
+Phone:
+1-877-662-6633
+Fax:
+1-877-662-6355
+Website:
+https://onco360.com/how-to-order/overview/
+Specialty distributors
+AmerisourceBergen Oncology Supply
+Phone:
+1-800-633-7555
+Fax:
+1-800-248-8205
+Email:
+service@oncologysupply.com
+Cardinal Health Specialty Distribution
+Phone:
+1-800-926-3161
+Fax:
+1-866-633-7005
+
+Result 3 (Sim: 62.7%):
+Source: https://www.orserduhcp.com/dosing/ - dose-modifications
+Content: Avoid concomitant use of ORSERDU with strong or moderate CYP3A4 inducers and inhibitors
+Avoid use of ORSERDU in patients with severe hepatic impairment (Child-Pugh C). Reduce the ORSERDU dosage to 258 mg once daily for patients with moderate hepatic impairment (Child-Pugh B). No dosage adjustment is recommended for patients with mild hepatic impairment (Child-Pugh A)
+3% of patients in EMERALD had ORSERDU dose reductions due to adverse reactions
+
+Result 4 (Sim: 62.1%):
+Source: https://www.orserduhcp.com/dosing/ - dosing
+Content: In
+ESR1
+-mutated, ER+/HER2- mBC following progression on ET
+Convenient, once-daily oral ORSERDU
+ORSERDU DOSAGE AND ADMINISTRATION
+One 345-mg tablet, once daily
+Treat patients until disease progression or unacceptable toxicity
+With food to reduce nausea
+Tablets should be swallowed whole. Do not chew, crush, or split
+Around the same time each day
+If a dose is missed, continue regular dosing on the next day
+Select patients for treatment of ER+/HER2- advanced or metastatic breast cancer with ORSERDU based on the presence of
+ESR1
+mutation(s) in plasma specimen using an FDA-approved test
+Information on FDA-approved tests for detection of
+ESR1
+mutations in breast cancer is available at:
+http://www.fda.gov/CompanionDiagnostics
+ER+, estrogen receptor-positive;
+ESR1
+
+Result 5 (Sim: 60.6%):
+Source: https://www.orserduhcp.com/dosing/ - references
+Content: Reference: 1. ORSERDU [prescribing information]. New York, NY: Stemline Therapeutics, Inc., a Menarini Group Company, 2023.
