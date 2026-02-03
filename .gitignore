@@ -3,3 +3,4 @@ venv
 rag_app.log
 data/chroma_db
 __pycache__
+*.log
